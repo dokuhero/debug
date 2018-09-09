@@ -18,7 +18,7 @@ yarn add @dokuhero/debug
 
 ## Usage
 
-```
+```javascript
 import { Debug } from '@dokuhero/debug'
 
 // create new debug instance
