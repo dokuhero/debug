@@ -1,0 +1,33 @@
+{
+  "name": "@dokuhero/debug",
+  "version": "0.0.1",
+  "description": "Simple Javascript debug utility",
+  "main": "dist/index.js",
+  "typings": "typings/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc -d --declarationDir ./typings",
+    "build": "rm -rf typings && npm run compile && prettier ./typings/**/*.d.ts --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dokuhero/debug.git"
+  },
+  "keywords": [
+    "debug",
+    "javascript",
+    "console",
+    "log"
+  ],
+  "author": "Budi Adiono <budiadiono@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dokuhero/debug/issues"
+  },
+  "homepage": "https://github.com/dokuhero/debug#readme",
+  "devDependencies": {
+    "@types/node": "^10.9.4",
+    "prettier": "^1.14.2",
+    "typescript": "^3.0.3"
+  }
+}
